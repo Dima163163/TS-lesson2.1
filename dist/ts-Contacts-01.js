@@ -19,6 +19,11 @@ const persons = [
         name: 'Макс Максимов',
         age: 29,
         group: 'Друзья',
+    },
+    {
+        name: 'Алексей Алексеев',
+        age: 36,
+        group: 'Друзья',
     }
 ];
 const logPerson = (user) => {
