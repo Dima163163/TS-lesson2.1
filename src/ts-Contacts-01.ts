@@ -1,4 +1,7 @@
-type User = {};
+type User = {
+  name: string,
+  age: number,
+};
 
 const persons: {
   name: string,
@@ -32,10 +35,7 @@ const persons: {
   }
 ];
 
-const logPerson = (user: {
-  name: string,
-  age: number,
-}): void => {
+const logPerson = (user: User): void => {
   console.log(`${user.name}, ${user.age}`);
 }
 
